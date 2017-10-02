@@ -6,38 +6,37 @@ module.exports = {
   getJobs: (query) => {
 
     const jobs = [];
-    const uri = `https://www.computrabajo.com.co/ofertas-de-trabajo/?q=${query}&prov=20`;
+    const uri = `http://www.elempleo.com/co/ofertas-empleo/armenia?&trabajo=${query}`;
 
     return fetch(uri)
       .then(res => res.text())
       .then(body => cheerio.load(body))
       .then(($) => {
 
-        $('#p_ofertas > div > div').each(function iterateElements() {
+        $('.result-list > .result-item').each(function iterateElements() {
 
           const data = $(this);
 
           const title = data
-            .children('h2')
+            .find('.item-title')
+            .find('a')
             .text()
             .trim();
 
-          const description = data
-            .children('p')
-            .text()
-            .trim();
+          const description = 'No hay descripción';
 
           const jobUrl = data
-            .children('h2')
-            .children('a')
-            .attr('href');
+            .find('.item-title')
+            .find('a')
+            .attr('href')
+            .trim();
 
           if (!title || !jobUrl) return;
 
           jobs.push({
             title,
             description,
-            url: `https://www.computrabajo.com.co${jobUrl}`,
+            url: `http://www.elempleo.com${jobUrl}`,
           });
 
         }, this);
@@ -45,7 +44,7 @@ module.exports = {
         return jobs;
       })
       .catch((error) => {
-        console.log('computrabajo scrapper error', query);
+        console.log('elempleo scrapper error', query);
         console.log(error);
         console.log('');
         return Promise.resolve([]);
