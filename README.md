@@ -2,12 +2,23 @@
 
 Basic web scrapper for finding jobs in Armenia, Quindío, Colombia
 
+-----------
+
 ## Instructions
 
-- install dependencies `npm i`
-- dev mode `npm start`
-- make queries in browser `http://localhost:7777/graphql`
+Install dependencies and run `dev` mode
 
-# Tech stack
+- `npm i `
+- `npm start`
+
+-----------
+
+## GraphiQL Console
+
+`http://localhost:8000/graphiql`
+
+-----------
+
+## Tech stack
 
 graphql, node, express

@@ -1,6 +1,7 @@
 // npm libs
 const {
   graphqlExpress,
+  graphiqlExpress,
 } = require('apollo-server-express');
 const bodyParser = require('body-parser');
 
@@ -9,14 +10,19 @@ const schema = require('./../graphql');
 
 module.exports = (app) => {
 
-  app.use('/graphql', bodyParser.json(), graphqlExpress({
-    graphiql: true,
+  app.use(bodyParser.json());
+
+  app.use('/graphql', graphqlExpress({
     schema,
     formatError: error => ({
       code: 'Error code',
       type: 'Error Type',
       message: error.message,
     }),
+  }));
+
+  app.get('/graphiql', graphiqlExpress({
+    endpointURL: '/graphql',
   }));
 
   app.listen('7777', () => {
