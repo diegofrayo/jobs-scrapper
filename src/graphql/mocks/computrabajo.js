@@ -2,13 +2,8 @@
 
 module.exports = {
 
-
   getJobs: () => {
-    // console.log(query);
-    // return Promise.reject(JSON.stringify({
-    //   type: 'error_type',
-    //   description: 'error_description'
-    // }));
+
     return Promise.resolve([{
       "title": "Coordinador de Soporte en Sitio - Armenia",
       "description": "Importante empresa de tecnología, busca en la ciudad de ARMENIA, profesional universitario en el área de Ingenierías...",
@@ -42,6 +37,7 @@ module.exports = {
       "description": "Importante empresa de tecnología, busca en la ciudad de Cali, profesional universitario en el área de Ingenierías de...",
       "url": "https://www.computrabajo.com.co/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-soporte-en-sitio-armenia-en-armenia-C172D0E4A163BE6E"
     }]);
+
   },
 
 };

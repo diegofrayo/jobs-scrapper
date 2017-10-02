@@ -1,16 +1,11 @@
+// npm libs
 const express = require('express');
-const expressGraphQL = require('express-graphql');
-const schema = require('./schema');
 
+// our dependencies
+const configureExpress = require('./config/express');
+
+// express config
 const app = express();
+configureExpress(app);
 
-app.use('/graphql', expressGraphQL({
-  graphiql: true,
-  schema,
-}));
-
-app.listen('7777', () => {
-  console.log('express server running in port 7777...');
-});
-
-exports = module.exports = app;
+module.exports = app;
