@@ -1,91 +1,199 @@
 /* eslint-disable */
 
 module.exports = {
-
   getJobs: () => {
-
-    return Promise.resolve([{
-      "title": "Ingeniero agrónomo con experiencia en pompon y diversificados",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/ingeniero-agronomo-con-experiencia-en-pompon-y-diversificados/1882662329"
-    }, {
-      "title": "Asesor comercial telefónico y recaudos",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/asesor-comercial-telefonico-y-recaudos/1882946341"
-    }, {
-      "title": "Gerente de planta bilingüe  pereira",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/gerente-de-planta-bilingue-pereira/1882946323"
-    }, {
-      "title": "Cobrador  motorizado en  medellin",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/cobrador-motorizado-en-medellin/1882859468"
-    }, {
-      "title": "Coordinador de desarrollo humano",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/coordinador-de-desarrollo-humano/1882929507"
-    }, {
-      "title": "Coordinador de salud (antioquia y tolima)",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/coordinador-de-salud-antioquia-y-tolima/1882927727"
-    }, {
-      "title": "Analista de selección eje cafetero",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/analista-de-seleccion-eje-cafetero/1882946056"
-    }, {
-      "title": "Generalista senior eje cafetero",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/generalista-senior-eje-cafetero/1882946049"
-    }, {
-      "title": "Auxiliar de infraestructura",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/auxiliar-de-infraestructura/1882946040"
-    }, {
-      "title": "Gerente comercial",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/gerente-comercial/1882946030"
-    }, {
-      "title": "Gerente comercial y administrativo",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/gerente-comercial-y-administrativo/1882945981"
-    }, {
-      "title": "Gerente de zona  para el municipio de barbosa",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/gerente-de-zona-para-el-municipio-de-barbosa/1882945972"
-    }, {
-      "title": "Gerente  de zona",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/gerente-de-zona/1882945964"
-    }, {
-      "title": "Gerente de zona",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/gerente-de-zona/1882945943"
-    }, {
-      "title": "Desarrollador angular",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/desarrollador-angular/1882945860"
-    }, {
-      "title": "Personal soporte técnico servicios ti. nacional!!",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/personal-soporte-tecnico-servicios-ti-nacional/1882945851"
-    }, {
-      "title": "Profesional en salud ocupacional   licencia vigente  en valle del cauca  gente oportuna sas",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/profesional-en-salud-ocupacional-licencia-vigente-en-valle-del-cauca-gente-oportuna-sas/1882945831"
-    }, {
-      "title": "Cuidador paciente especial 802",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/cuidador-paciente-especial-/1882811009"
-    }, {
-      "title": "Tecnico en telecomunicaciones  sin experiencia en antioquia  emtelco cx  bpo",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/tecnico-en-telecomunicaciones-sin-experiencia-en-antioquia-emtelco-cx-bpo/1882945767"
-    }, {
-      "title": "Líder comercial",
-      "description": "No hay descripción",
-      "url": "http://www.elempleo.com/co/ofertas-trabajo/lider-comercial/1882945764"
-    }]);
-
+    return Promise.resolve([
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Asesor de soporte tecnico en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/asesor-de-soporte-tecnico-en-antioquia-emtelco-cx-bpo/1882961574',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Desarrollador siebel sénior',
+        url: 'http://www.elempleo.com/co/ofertas-trabajo/desarrollador-siebel-senior/1882839781',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Analista de aplicaciones estandar en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/analista-de-aplicaciones-estandar-en-antioquia-emtelco-cx-bpo/1882961743',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Ingeniero planeador de mantenimiento',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/ingeniero-planeador-de-mantenimiento/1882899338',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title:
+          'Tecnicos en sistemas contar con moto propia  urgente presentate viernes 06 de octubre 10 am respuest',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/tecnicos-en-sistemas-contar-con-moto-propia-urgente-presentate-viernes-de-octubre-am-respuest/1882961693',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Jefe de logistica',
+        url: 'http://www.elempleo.com/co/ofertas-trabajo/jefe-de-logistica/1882961615',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Asesor telefonico  soporte tecnico en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/asesor-telefonico-soporte-tecnico-en-antioquia-emtelco-cx-bpo/1882961583',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Ingeniero de sistemas  en bogota, dc  americas business process services sa',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/ingeniero-de-sistemas-en-bogota-dc-americas-business-process-services-sa/1882961791',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title:
+          'Jefe de mantenimiento experiencia en alimentos calderas y refrigeracion  la dorada  caldas en caldas',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/jefe-de-mantenimiento-experiencia-en-alimentos-calderas-y-refrigeracion-la-dorada-caldas-en-caldas/1882961554',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title:
+          'Auxilia hseq experiencia en seguridad vial   tecnico o tecnologo en bogota, dc  gente oportuna sas',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/auxilia-hseq-experiencia-en-seguridad-vial-tecnico-o-tecnologo-en-bogota-dc-gente-oportuna-sas/1882960884',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title:
+          'Ingenieros de  sistemas  con especializacion  en bogota, dc  americas business process services sa',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/ingenieros-de-sistemas-con-especializacion-en-bogota-dc-americas-business-process-services-sa/1882960218',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Ingenieros de sistemas  en bogota, dc  americas business process services sa',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/ingenieros-de-sistemas-en-bogota-dc-americas-business-process-services-sa/1882960109',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Urgente asesores de soporte técnico convocatoria nacional',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/urgente-asesores-de-soporte-tecnico-convocatoria-nacional/1882960103',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-5',
+        title: 'Asesor   contact center en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/asesor-contact-center-en-antioquia-emtelco-cx-bpo/1882960023',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-4',
+        title: 'Tecnico en telecomunicaciones  sin experiencia en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/tecnico-en-telecomunicaciones-sin-experiencia-en-antioquia-emtelco-cx-bpo/1882959368',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-4',
+        title: 'Tecnico en sistemas  sin experiencia en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/tecnico-en-sistemas-sin-experiencia-en-antioquia-emtelco-cx-bpo/1882959315',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-4',
+        title: 'Asesor de soporte tecnico   sin experiencia en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/asesor-de-soporte-tecnico-sin-experiencia-en-antioquia-emtelco-cx-bpo/1882959369',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-4',
+        title:
+          'Tecnico de mantenimiento neumatico  con experiencia en bogota, dc  gente oportuna sas',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/tecnico-de-mantenimiento-neumatico-con-experiencia-en-bogota-dc-gente-oportuna-sas/1882959938',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-4',
+        title: '274 p',
+        url: 'http://www.elempleo.com/co/ofertas-trabajo/-p/1882959516',
+        website: 'elempleo.com',
+      },
+      {
+        description: 'No hay descripción',
+        pubDate: '2017-10-4',
+        title:
+          'Asesor de soporte tecnico   se respetan horarios de estudio   en antioquia  emtelco cx  bpo',
+        url:
+          'http://www.elempleo.com/co/ofertas-trabajo/asesor-de-soporte-tecnico-se-respetan-horarios-de-estudio-en-antioquia-emtelco-cx-bpo/1882959370',
+        website: 'elempleo.com',
+      },
+      {
+        description:
+          'ROL DEL CARGO: Genere, consolide, depure, organice y presente la información necesaria para el gerenciamiento del...',
+        pubDate: '2017-10-3',
+        title:
+          'Tecnico Generacion de Informacion en Salud Dptal -   Tecnología en Áreas de la salud o de sistemas',
+        url:
+          'https://www.computrabajo.com.co/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-generacion-de-informacion-en-salud-dptal--tecnologia-en-areas-de-la-salud-o-de-sistemas-en-armenia-632E9CC50C485CB0',
+        website: 'computrabajo.com.co',
+      },
+      {
+        description:
+          'Importante empresa del sector necesita para su equipo de trabajo personalcapacitado en Soporte técnico en hardware y...',
+        pubDate: '2017-10-3',
+        title: 'Ingeniero de sistemas - con experiencia',
+        url:
+          'https://www.computrabajo.com.co/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-con-experiencia--en-armenia-558F044211D7AB1C',
+        website: 'computrabajo.com.co',
+      },
+      {
+        description:
+          'Se requieren Inspectores de Obradebenresidan en ARMENIA o QUINDIO;con 3 años de experiencia en CONSTRUCCIÓNDE...',
+        pubDate: '2017-10-1',
+        title: 'Inspector de obra vertical torres apartamentos sistema industrializado - Armenia',
+        url:
+          'https://www.computrabajo.com.co/ofertas-de-trabajo/oferta-de-trabajo-de-inspector-de-obra-vertical-torres-apartamentos-sistema-industrializado-armenia--en-armenia-0DF3AF470D1A840D',
+        website: 'computrabajo.com.co',
+      },
+    ]);
   },
-
 };

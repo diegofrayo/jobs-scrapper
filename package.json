@@ -1,17 +1,43 @@
 {
   "name": "jobs-scrapper",
-  "version": "1.0.0",
-  "description": "Basic web scrapper for finding jobs",
+  "version": "0.0.1",
+  "description": "Basic web scrapper for finding jobs in Armenia, Quindío, Colombia",
+  "keywords": [
+    "graphql",
+    "express",
+    "server",
+    "backend",
+    "scrapper"
+  ],
+  "homepage": "https://github.com/hey-dev/jobs-scrapper#readme",
+  "bugs": {
+    "email": "workspace.armenia@gmail.com",
+    "url": "https://github.com/hey-dev/jobs-scrapper/issues"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Alejandro Baez",
+    "email": "nativo.alejandro@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Alejandro Baez",
+      "email": "nativo.alejandro@gmail.com"
+    },
+    {
+      "name": "Diego Rayo",
+      "email": "diegofrayo@gmail.com",
+      "url": "http://diegofrayo.com"
+    }
+  ],
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hey-dev/jobs-scrapper.git"
+  },
   "scripts": {
     "start": "nodemon index.js",
-    "lint": "esw -w -c config.eslint.json src/**/*.js"
-  },
-  "devDependencies": {
-    "eslint": "^4.8.0",
-    "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-watch": "^3.1.2"
+    "lint": "esw -w -c .eslintrc src/**/*.js"
   },
   "dependencies": {
     "apollo-server-express": "^1.1.2",
@@ -23,5 +49,17 @@
     "node-fetch": "^1.7.3",
     "nodemon": "^1.12.1"
   },
-  "license": "ISC"
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-watch": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "private": true
 }

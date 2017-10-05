@@ -1,9 +1,10 @@
 module.exports = `
   type Job {
+    description: String!
+    pubDate: String!
     title: String!
     url: String!
-    description: String
-    pubDate: String
+    website: String!
     salary: Int @deprecated(reason: "It's not necessary")
   }
 `;

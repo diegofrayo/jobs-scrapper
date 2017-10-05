@@ -15,7 +15,7 @@ Install dependencies and run `dev` mode
 
 ## GraphiQL Console
 
-`http://localhost:8000/graphiql`
+`http://localhost:7777/graphiql`
 
 -----------
 

@@ -1,9 +1,10 @@
 {
-  "extends": ["eslint:all", "airbnb-base"],
+  "extends": ["eslint:all", "airbnb-base", "prettier"],
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2017,
     "sourceType": "module",
     "ecmaFeatures": {
+      "classes": true,
       "spread": true,
       "experimentalObjectRestSpread": true,
       "restParams": true
@@ -44,5 +45,6 @@
       "avoidEscape": true,
       "allowTemplateLiterals": true
     }]
-  }
+  },
+  "plugins": ["prettier"]
 }

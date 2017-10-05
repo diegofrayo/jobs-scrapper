@@ -1,32 +1,38 @@
 // npm libs
-const {
-  graphqlExpress,
-  graphiqlExpress,
-} = require('apollo-server-express');
+const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 const bodyParser = require('body-parser');
 
 // our dependencies
 const schema = require('./../graphql');
+const mock = require('./../graphql/mocks/elempleo').getJobs;
 
-module.exports = (app) => {
-
+module.exports = app => {
   app.use(bodyParser.json());
 
-  app.use('/graphql', graphqlExpress({
-    schema,
-    formatError: error => ({
-      code: 'Error code',
-      type: 'Error Type',
-      message: error.message,
+  app.use(
+    '/graphql',
+    graphqlExpress({
+      schema,
+      formatError: error => ({
+        code: 'Error code',
+        type: 'Error Type',
+        message: error.message,
+      }),
     }),
-  }));
+  );
 
-  app.get('/graphiql', graphiqlExpress({
-    endpointURL: '/graphql',
-  }));
+  app.get(
+    '/graphiql',
+    graphiqlExpress({
+      endpointURL: '/graphql',
+    }),
+  );
+
+  // for testing
+  app.post('/jobs', (req, res) => mock().then(results => res.send(results)));
 
   app.listen('7777', () => {
     console.log('express server running in port 7777...');
+    console.log('graphiql: http://localhost:7777/graphiql');
   });
-
 };

@@ -1,7 +1,4 @@
-const {
-  makeExecutableSchema,
-  addMockFunctionsToSchema,
-} = require('graphql-tools');
+const { makeExecutableSchema, addMockFunctionsToSchema } = require('graphql-tools');
 
 // schemas
 const rootQuery = require('./schema/RootQuery');
