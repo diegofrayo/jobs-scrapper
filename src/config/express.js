@@ -1,6 +1,7 @@
 // npm libs
 const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 const bodyParser = require('body-parser');
+const morgan = require('morgan');
 
 // our dependencies
 const schema = require('./../graphql');
@@ -8,6 +9,10 @@ const mock = require('./../graphql/mocks/elempleo').getJobs;
 
 module.exports = app => {
   app.use(bodyParser.json());
+
+  if (ENV === 'development') {
+    app.use(morgan('combined'));
+  }
 
   app.use(
     '/graphql',
