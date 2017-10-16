@@ -11,12 +11,10 @@
     }
   },
   "globals": {
-    "alert": true,
     "console": true,
-    "document": true,
+    "ENV": true,
     "fetch": true,
-    "Promise": true,
-    "window": true
+    "Promise": true
   },
   "rules": {
     "array-callback-return": 0,
