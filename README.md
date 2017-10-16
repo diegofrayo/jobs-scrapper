@@ -9,7 +9,7 @@ Basic web scrapper for finding jobs in Armenia, Quindío, Colombia
 Install dependencies and run `dev` mode
 
 - `npm i `
-- `npm start`
+- `npm run dev`
 
 -----------
 

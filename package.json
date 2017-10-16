@@ -36,15 +36,16 @@
     "url": "git+https://github.com/hey-dev/jobs-scrapper.git"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js",
     "lint": "esw -w -c .eslintrc src/**/*.js"
   },
   "dependencies": {
-    "apollo-server-express": "^1.1.2",
+    "apollo-server-express": "^1.1.6",
     "body-parser": "^1.18.2",
-    "cheerio": "latest",
-    "express": "^4.16.1",
-    "graphql": "^0.11.6",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
     "graphql-tools": "^1.2.3",
     "morgan": "^1.9.0",
     "node-fetch": "^1.7.3",
@@ -52,12 +53,12 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
-    "eslint": "^4.8.0",
+    "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-prettier": "^2.3.1",
-    "eslint-watch": "^3.1.2"
+    "eslint-watch": "^3.1.3"
   },
   "engines": {
     "node": ">=8.6.0"
