@@ -8,5 +8,5 @@ module.exports = {
     return date.toLocaleDateString();
   },
 
-  formatText: string => string.replace(/(\r\n|\n|\r)/gm, ' '),
+  formatText: string => string.replace(/(\r\n|\n|\r)/gm, ' ').replace(/  +/g, ' '),
 };

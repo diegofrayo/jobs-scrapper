@@ -2,13 +2,7 @@
   "name": "jobs-scrapper",
   "version": "0.0.1",
   "description": "Basic web scrapper for finding jobs in Armenia, Quindío, Colombia",
-  "keywords": [
-    "graphql",
-    "express",
-    "server",
-    "backend",
-    "scrapper"
-  ],
+  "keywords": ["graphql", "express", "server", "backend", "scrapper"],
   "homepage": "https://github.com/hey-dev/jobs-scrapper#readme",
   "bugs": {
     "email": "workspace.armenia@gmail.com",
@@ -19,17 +13,14 @@
     "name": "Alejandro Baez",
     "email": "nativo.alejandro@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Alejandro Baez",
-      "email": "nativo.alejandro@gmail.com"
-    },
-    {
-      "name": "Diego Rayo",
-      "email": "diegofrayo@gmail.com",
-      "url": "http://diegofrayo.com"
-    }
-  ],
+  "contributors": [{
+    "name": "Alejandro Baez",
+    "email": "nativo.alejandro@gmail.com"
+  }, {
+    "name": "Diego Rayo",
+    "email": "diegofrayo@gmail.com",
+    "url": "http://diegofrayo.com"
+  }],
   "main": "index.js",
   "repository": {
     "type": "git",
