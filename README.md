@@ -21,4 +21,6 @@ Install dependencies and run `dev` mode
 
 ## Tech stack
 
-graphql, node, express
+- node
+- express
+- graphql
