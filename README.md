@@ -6,10 +6,15 @@ Basic web scrapper for finding jobs in Armenia, Quindío, Colombia
 
 ## Instructions
 
-Install dependencies and run `dev` mode
-
-- `npm i `
+- `npm i`
 - `npm run dev`
+
+-----------
+
+## Deployment
+
+- `npm run deploy`
+- `now alias [output url] diegofrayo-jobs-scrapper`
 
 -----------
 

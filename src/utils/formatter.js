@@ -1,5 +1,7 @@
 module.exports = {
-  formatDate: string => {
+
+  formatDate: (string) => {
+
     if (!string) return '';
 
     const date = new Date(string);
@@ -9,4 +11,5 @@ module.exports = {
   },
 
   formatText: string => string.replace(/(\r\n|\n|\r)/gm, ' ').replace(/  +/g, ' '),
+
 };

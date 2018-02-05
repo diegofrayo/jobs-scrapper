@@ -7,7 +7,8 @@ const morgan = require('morgan');
 const schema = require('./../graphql');
 const mock = require('./../graphql/mocks/elempleo').getJobs;
 
-module.exports = app => {
+module.exports = (app) => {
+
   app.use(bodyParser.json());
 
   if (ENV === 'development') {
@@ -26,12 +27,7 @@ module.exports = app => {
     }),
   );
 
-  app.get(
-    '/graphiql',
-    graphiqlExpress({
-      endpointURL: '/graphql',
-    }),
-  );
+  app.get('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
   // for testing
   app.post('/jobs', (req, res) => mock().then(results => res.send(results)));

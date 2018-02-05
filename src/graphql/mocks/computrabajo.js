@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 const { formatText } = require('./../../utils/formatter');
 
 module.exports = {

@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:all", "airbnb-base", "prettier"],
+  "extends": ["eslint:all", "airbnb-base"],
   "parserOptions": {
     "ecmaVersion": 2017,
     "sourceType": "module",
@@ -43,6 +43,5 @@
       "avoidEscape": true,
       "allowTemplateLiterals": true
     }]
-  },
-  "plugins": ["prettier"]
+  }
 }
